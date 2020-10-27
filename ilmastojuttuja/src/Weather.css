@@ -1,0 +1,19 @@
+.Weather {
+  display: flex;
+  flex-direction: column;
+}
+.Weather_focused img{
+  width: 200px;
+}
+
+.Weather_forecast {
+  display: flex;
+}
+.Weather_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Weather_box img{
+  width: 125px;
+}
