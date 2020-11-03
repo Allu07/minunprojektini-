@@ -1,13 +1,28 @@
 .Weather {
   display: flex;
   flex-direction: column;
+  font-family: 'Syne Tactile', cursive;
+}
+.Weather_focused{
+  font-size: 30px;
+  margin: 35px 45px;
 }
 .Weather_focused img{
   width: 200px;
 }
 
-.Weather_forecast {
+.Weather_forecast{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+}
+.Weather_forecast img{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1px 30px;
 }
 .Weather_box {
   display: flex;
