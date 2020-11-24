@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   margin: 20px 40px;
+  flex-wrap: wrap;
 }
 .Weather_forecast img{
   display: flex;
